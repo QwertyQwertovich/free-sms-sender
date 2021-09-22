@@ -18,11 +18,11 @@
 ### Termux
 1. If git is not installed:
     ````
-    sudo apt-get install git
+    pkg install git
     ````
 2. If python is not installed:
     ````
-    sudo apt-get install python
+    pkg install python
     ````
 3. Then run
     ````
