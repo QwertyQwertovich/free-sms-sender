@@ -31,8 +31,8 @@ def send(phone, sender, text, is_test, proxy, i=0):
             cprint(str(i) + ": Success!", "green")
             return True
         else:
-            cprint(str(i) + ": Error " + str(ans["error"]), "red")
+            cprint(str(i) + ": Error: " + str(ans["error"]), "red")
             return False
     except Exception as e:
-        cprint(str(i) + ": Error " + str(e), "red")
+        cprint(str(i) + ": Error: " + str(e), "red")
         return False
