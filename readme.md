@@ -1,6 +1,6 @@
 # Free SMS sender
 ## Installation
-### Linux
+### Linux (via Terminal)
 1. If git is not installed:
     ````
     sudo apt-get install git
@@ -12,6 +12,7 @@
 3. Then run
     ````
     pip3 install termcolor
+    pip3 install requests
     git clone https://github.com/QwertyQwertovich/free-sms-sender
     ````
 4. enjoy
@@ -27,13 +28,19 @@
 3. Then run
     ````
     pip3 install termcolor
+    pip3 install requests
     git clone https://github.com/QwertyQwertovich/free-sms-sender
     ````
 4. enjoy
 ### Windows/Linux/MacOS
 1. Install Python 3
 2. Download this repository
-
+3. Run Command Prompt/Terminal
+4. Run
+    ````
+    pip3 install termcolor
+    pip3 install requests
+    ````
 ## Usage
 1. Run the program:
 #### Termux/Linux
